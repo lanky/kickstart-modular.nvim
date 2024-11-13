@@ -8,7 +8,7 @@ vim.api.nvim_create_autocmd("colorscheme", {
     vim.api.nvim_set_hl(0, "Folded", {})
     vim.api.nvim_set_hl(0, "NonText", {})
     vim.api.nvim_set_hl(0, "CursorLine", {})
-    vim.api.nvim_set_hl(0, "CursorColumn", { bg = "NvimDarkGray2" })
+    vim.api.nvim_set_hl(0, "CursorColumn", { bg = "NvimDarkGray3" })
     vim.api.nvim_set_hl(0, "Normal", { bg = "NONE" })
     vim.api.nvim_set_hl(0, "DiffChange", { bg = "NONE", fg = "cyan" })
     vim.api.nvim_set_hl(0, "DiffDelete", { bg = "NONE", fg = "red" })

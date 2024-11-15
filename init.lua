@@ -22,6 +22,8 @@ require("lazy-plugins")
 -- load custom autocommands, before colorschemes
 require("autocommands")
 
+require("keys")
+
 -- finally, set the colorscheme
 
 vim.cmd.colorscheme("tokyonight-night")

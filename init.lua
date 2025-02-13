@@ -7,6 +7,9 @@ vim.g.maplocalleader = " "
 -- Set to true if you have a Nerd Font installed and selected in the terminal
 vim.g.have_nerd_font = true
 
+-- Python config
+vim.g.python3_host_prog = vim.fn.resolve("~/.virtualenvs/nvim/bin/python")
+
 -- [[ Setting options ]]
 require("options")
 
